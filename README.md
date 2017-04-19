@@ -17,3 +17,8 @@ export TOTAL=$((VAR2*2*2*2))
 echo ${TOTAL}
 ``` 
 
+-solucion para ejercicio 3
+``` 
+ps -A > ps.txt
+cat ps.txt | tail -n +2 | wc -l
+``` 
